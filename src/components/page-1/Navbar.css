@@ -1,0 +1,128 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border: 1px solid #581717;
+  background: #000;
+  border-radius: 20px;
+  height: 80px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.nav-list li a:hover {
+  background-color: #581717;
+  color: #fff;
+}
+
+@media only screen and (max-width: 480px) {
+  h1, .heading, .head-2 {
+    font-size: 20px;
+    margin: 15px auto;
+    width: 95%;
+  }
+
+  .logo-1 {
+    width: 60px;
+    height: 60px;
+    margin: -30px auto 10px auto;
+  }
+
+  p, .para, .paragraph, .p2, .lh, .p {
+    font-size: 13px;
+    width: 95%;
+  }
+
+  .buy {
+    padding: 10px;
+    border-width: 3px;
+    width: 95%;
+  }
+
+  .model {
+    width: 130px;
+    height: 130px;
+  }
+
+  .qr {
+    width: 90px;
+    height: 90px;
+  }
+
+  .mobile, .m-2 {
+    width: 95%;
+    margin: 15px auto;
+  }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  h1, .heading, .head-2 {
+    font-size: 36px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .logo-1 {
+    width: 120px;
+    height: 120px;
+    margin: -60px auto 20px auto;
+  }
+
+  p, .para, .paragraph, .p2, .lh, .p {
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .buy {
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    border-width: 6px;
+  }
+
+  .model {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+  }
+
+  .qr {
+    width: 130px;
+    height: 130px;
+  }
+
+  .mobile, .m-2 {
+    width: 90%;
+    margin: 20px auto;
+  }
+}

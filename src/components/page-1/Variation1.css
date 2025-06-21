@@ -1,0 +1,620 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700&display=swap');
+
+body,html{
+  
+}
+
+.sub{
+  margin-top:10px;
+    height: 68px;
+  width: 800px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #c7c7c7;
+  font-family:"Bricolage Grotesque"
+}
+span {
+  color: rgb(218, 77, 25);
+}
+
+
+.p23{
+  position:relative;
+  height: 68px;
+  width: 857px;
+  font-style:24px;
+  color: #c7c7c7;
+  font-family: 'Bricolage Grotesque';
+}
+.para {
+  width: 190px;
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+.model {
+  border: 2px solid rgb(16, 1, 1);
+  background-color: #2d2a2a;
+  height: 240px;
+  width: 240px;
+  border-radius: 20px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.model:hover {
+  cursor: pointer;
+  background-color: #666666;
+}
+
+.qr {
+  width: 150px;
+  height: 150px;
+  margin: 10px auto 0 auto;
+  display: block;
+}
+
+.mobile {
+  width: 600px;
+  margin-top: -300px;
+  margin-left: 440px;
+}
+
+.heading {
+  position:relative;
+  margin-top:100px;
+  font-size: 55px;
+  margin-left: 400px;
+  color: linear-gradient(90deg, #FFFFFF 0%, #945858 100%);
+  font-weight: 700;
+  width: 700px;
+  height: 67px;
+}
+
+.paragraph {
+  font-size: 24px;
+  text-align: center;
+  margin-left: 310px;
+  font-weight: 500;
+  font-family:'SF Pro Display'
+  
+}
+
+.m-2 {
+  width: 500px;
+  height: 300px;
+}
+
+.head-2 {
+  position: absolute;
+  font-weight: 700;
+  font-size: 56px;
+  margin-top: 60px;
+  font-family:"Bricolage Grotesque";
+   height: 47px;
+  width:617px;
+
+}
+
+.p2 {
+  position: absolute;
+  margin-left: 500px;
+  width: 589px;
+  font-family:"SF Pro Display";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  margin-top:-150px;
+  
+}
+
+.lh{
+  margin-left:200px;
+  font-weight: 700;
+  font-family:'Bricolage Grotesque ';
+  font-size: 96px;
+  width: 953px;
+  height: 115px;
+}
+ .sh{
+  color:rgb(220, 117, 134);
+ }
+ .p{
+  margin-left: 300px;
+  text-align: center;
+ }
+.model-3{
+  margin-top:200px;
+  background-color: transparent;
+  margin-left:-100px;
+   
+}
+.header-6{
+  font-size: 40px;
+  font-family: 'Bricolage Grotesque 48px';
+  margin-top:-110px;
+  margin-left:300px;
+}
+.p-7{
+  margin-left: 20rem;
+  width: 608px;
+  font-weight: 400;
+  height: 48px;
+
+}
+
+.new{
+  width: 326px;
+  margin-left: 59rem;
+  margin-top: -200px;
+  background-color: #373434;
+  border-radius: 20px;
+  width: 400px;
+  height: 306px;
+
+}
+.header-7{
+  width: 871px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 40px;
+  font-family:'Bricolage Grotesque 48pt';
+  padding-top: 40px;
+  margin-left: 80px;
+}
+.logo-2{
+  height:200px;
+   margin-left: 300px;
+}
+h2{
+  color: #fff;
+  margin-left: 290px;
+  font-size: 30px;
+}
+.transp{
+
+   width: 1086px;
+   height: 396px;
+   border-radius: 20px;
+   margin-left: 200px;
+   margin-top: 90px;
+}
+.screen{
+  margin-top: 100px;
+  margin-left: 290px;
+  border-radius: 20px;
+  width: 900px;
+  height:682px;
+
+}
+.colormodel{
+    background: linear-gradient(90deg, #251414 9.62%, #572222 48.08%, #1D0101 88.46%);
+    width: 1000px;
+    margin-left: 300px;
+    border-radius: 20px;
+    height: 80px;
+    
+}
+.head-7{
+  font-size: 48px;
+ font-family:'Bricolage Grotesque 36pt';
+ font-weight: 700;
+ width: 540px;
+ margin-left: 200px;
+ padding-top: 20px;
+ height: 58px;
+}
+.social-media{
+display:flex;
+flex-direction: column;
+
+}
+
+.media-1{
+  background-color: rgb(119, 76, 76);
+  height: 200px;
+  margin-top: 50px;
+  width: 200px;
+}
+.variation-container {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Other styles already exist... */
+
+.download-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #611f1f, #a85454);
+  border-radius: 12px;
+  padding: 20px 30px;
+  width: 1062px;
+  margin-top: 300px;
+  margin-left:200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.download-text {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+ margin-left:300px;
+}
+
+.brand {
+  color: #f2dede;
+  font-weight: bold;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 12px;
+  position: relative;
+  margin-left: -100px;
+}
+
+.store-img {
+  width: 120px;
+  height: auto;
+   
+  transition: transform 0.2s;
+}
+
+.store-img:hover {
+  transform: scale(1.05);
+}@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700&display=swap');
+
+/* Base Styles */
+body, html {
+  background-color: #0d0d0d;
+  background-image: 
+    linear-gradient(0deg, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 40px 40px; 
+  margin: 0;
+  padding: 0;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  color: white;
+  box-sizing: border-box;
+  
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+  width: 605px;
+  margin-left: 240px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo-1 {
+  width: 150px;
+  height: 150px;
+  margin-top: -110px;
+  left: 62px;
+  position: relative;
+}
+
+p {
+  color: white;
+  margin-left: 180px;
+  width: 800px;
+  font-size: 20px;
+}
+
+.buy {
+  margin-left: 200px;
+  padding: 30px 20px;
+  height: 500px;
+  width: 1000px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 20px;
+}
+
+
+@media screen and(max-width:768px){
+
+}
+@media screen  and(max-width:576px){
+ 
+
+}
+
+
+@media screen and (max-width: 480px) {
+.buy{
+  position:relative;
+  margin-left: 220px;
+}
+h1{
+  position: relative;
+  left:50px;
+ 
+}
+.p23{
+  position: relative;
+  margin-left:30px;
+  font-size: 20px;
+}
+.sub{
+  position: relative;
+  left: -180px;
+  color: #fff;
+}
+.model{
+  position: relative;
+  margin-left:10px;
+  top:-10px;
+}
+
+.qr{
+  position: relative;
+  margin-top:-2px;
+}
+.para{
+ position: absolute;
+ top:100px;
+ left:-10px;
+ 
+}
+.mobile{
+position: absolute;
+left: 200px;
+top:-50px;
+height: 200px;
+}
+.heading{
+  position:relative;
+  height: 48px;
+  left:230px;
+}
+.paragraph{
+  position: relative;
+  margin-left:200px;
+  font-size:20px;
+}
+.head-2{
+  position: relative;
+  top:-320px;
+ left:230px;
+  height: 30px;
+}
+
+.p2{
+ position: relative;
+ margin-left:290px;
+ font-size:20px;
+ margin-top:4px;
+ 
+ 
+
+}
+.m-2{
+  position: relative;
+  left:200px;
+}
+.lh{
+  position: relative;
+  margin-left:340px;
+
+}
+.p{
+  position:absolute;
+  margin-left:220px;
+  margin-top:-100px;
+ 
+}
+.model-3{
+  position:relative;
+  margin-top:100px;
+}
+.header-6{
+  position: relative;
+  margin-left: 340px;
+  width:435px;
+}
+.p-7{
+  position: relative;
+  margin-left:350px;
+  font-size: 24px;
+  width: 428px;
+  height: 58px;
+}
+.new{
+ position: relative;
+ margin-left:340px;
+ margin-top:50px;
+}
+.transp{
+  position: relative;
+  margin-left:240px;
+}
+.hand{
+  position: relative;
+  width:400px;
+  
+  
+}
+}
+
+
+
+
+
+@media screen and (max-width: 360px) {
+
+
+  .buy {
+   width: 100%;
+    padding: 10px;
+    margin-left: 170px;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .p23 {
+    font-size: 15px;
+   margin-left:10px;
+    width: 300px;
+  }
+
+  .sub {
+    font-size: 15px;
+    margin-left:200px;
+    color: #fff;
+    margin-top:3px;
+  }
+
+  .model {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    margin-left: -10px;
+    margin-top:-10px;
+    display: block;
+  }
+
+  .mobile {
+  position: relative;
+  left: 200px;
+  top:-150px;
+  height: 200px;
+  }
+
+  .model-3 {
+    width: 95%;
+    margin: 10px auto;
+    display: block;
+  }
+
+  .hand {
+    width:300px;
+    margin-left: 10px;
+  }
+
+  .qr {
+    display: block;
+    margin: 4px auto;
+  }
+
+  .para {
+   padding-top:5px;
+  }
+
+  .heading {
+   height: 34px;
+   top:30px;
+   left:180px;
+  
+  }
+
+ .m-2{
+  position:relative;
+  left: 200px;
+  top:-40px;
+ }
+
+  .paragraph {
+    margin-top:20px;
+    margin-left:180px;
+    font-size: 15px;
+  }
+
+  .head-2 {
+  position: relative;
+  height: 32px;
+  top:-20px;
+  left: 200px;
+  
+  }
+
+  .p2 {
+   margin-top:-20px;
+   margin-left: 210px;
+  }
+
+
+  .lh {
+   position:relative;
+   left:-140px;
+  }
+
+  .p {
+   position: relative;
+   margin-top:-90px;
+   margin-left: 210px;
+  }
+
+  .p-7 {
+    font-size: 18px;
+    width: 100%;
+   margin-left: 190px;
+    text-align: center;
+  }
+
+  .transp {
+   position: relative;
+    top:10px;
+   margin-left: 200px;
+
+  }
+
+  .hand{
+    position:relative;
+    width:250px;
+    left: 30px;
+  }
+  .header-6 {
+    font-size: 23px;
+    text-align: center;
+    margin: 10px auto;
+    width:330px;
+    margin-left:140px;
+  }
+
+  .download-section {
+  width: 300px;
+ 
+  }
+
+  .download-text {
+ position:relative;
+ margin-left:-80px;
+ margin-top:-90px;
+ margin-left: 20px;
+ font-size: 20px;
+  }
+
+  .store-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    left:-50px;
+    
+  }
+  .new{
+    position: relative;
+    margin-left:230px;
+    height: 200px;
+    width:240px;
+    margin-top:20px;
+
+  }
+}
+

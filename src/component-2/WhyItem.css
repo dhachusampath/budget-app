@@ -1,0 +1,19 @@
+.topic {
+  position: relative;
+  font-size:20px;
+  width:230px;
+  margin-top:80px;
+  margin-left:30px;
+}
+
+.p-graph {
+  position: relative;
+  font-size:24px;
+  width: 250px;
+  margin-left:30px;
+  
+}
+.why-image{
+  position: relative;
+  margin-top:50px;
+}

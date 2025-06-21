@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700&display=swap');
+
+.why{
+  width: 1080px;
+  background: #2b0505;
+  margin-left: 200px;
+  border-radius: 20px;
+  height: 368px;
+}
+.h9{
+  width: 700px;
+  height: 77px;
+  font-size: 64px;
+  margin-top: 60px;
+  font-weight:700;
+  font-family:'Bricolage Grotesque';
+  letter-spacing: 0%;
+  margin-left: 440px;
+}
+.h10{
+  padding-top: 20px;
+  margin-left: 120px;
+}
+.p10{
+  height: 120px;
+  width: 493px;
+  margin-left: 123px;
+  margin-top: -200px;
+}
+.h11{
+  font-weight: 800;
+  font-size: 64px;
+  font-family: 'Bricolage Grotesque';
+ color: #F47A7A;
+ margin-left: 100px;
+ margin-top:-20px;
+}
+.certificate{
+  width: 200px;
+  height: 230px;
+  margin-left: 700px;
+}
+.p-3{
+  position: relative;
+  margin-top:100px;
+}
+.pre-1{
+  position: relative;
+  height: 476px;
+  width: 523px;
+  margin-left: 200px;
+}
+.pre-2{
+  position: relative;
+  height: 476px;
+  width: 523px;
+  margin-left: 740px;
+  top:-50px;
+}
+.pre-3{
+  position: relative;
+  height: 476px;
+  width:523px;
+  margin-left: 200px;
+  margin-top:-60px;
+}
+.g-1{
+  position: relative;
+  font-size:36px;
+  height: 108px;
+  width: 423px;
+  left: 500px;
+  top:-400px;
+}
+.c-1{
+  position: absolute;
+ font-size: 24px;
+ margin-top:-410px;
+ margin-left: 800px;
+ width: 423px;
+}
+.g-2{
+  position:relative;
+  width:420px;
+  height: 108px;
+  font-size:36px;
+  margin-left:230px;
+  top:-460px;
+}
+.c-2{
+  position: absolute;
+  margin-top:-480px;
+  font-weight: 400;
+  width: 458px;
+  font-size: 24px;
+  height: 108px;
+  margin-left: 230px;
+}
+.g-3{
+  position: relative;
+  width:420px;
+  height: 108px;
+  font-size: 36px;
+  margin-left: 53rem;
+top:-400px;
+}
+
+.c-3{
+  position: absolute;
+  font-weight: 400;
+  width: 458px;
+  font-size:24px;
+   margin-top:-390px;
+   margin-left: 53rem;
+}
+.l-1{
+   width: 817px;
+   height: 60px;
+   font-size: 40px;
+   font-weight: 700;
+   margin-left: 340px;
+   margin-top:-20px;
+}
+.p-30{
+  height: 78px;
+  width: 875px;
+  font-size:26px;
+  margin-left: 340px;
+}
+.l-2{
+  position: relative;
+  height: 60px;
+  font-size:40px;
+  margin-left: 340px;
+  width: 817px;
+}
+.p-31{
+  height: 78px;
+  width:875px;
+  margin-left:340px;
+  font-size: 26px;
+}
+.growth{
+  position: relative;
+  margin-left: 200px;
+  height: 390px;
+  width: 1080px;
+}

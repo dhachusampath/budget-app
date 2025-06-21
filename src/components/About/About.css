@@ -1,0 +1,410 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700&display=swap');
+.heads {
+  margin-top: 40px;
+  text-align: center;
+  margin-left:22rem;
+  font-size: 36px;
+  color: #fff;
+}
+
+.start {
+  width: 570px;
+  font-size: 36px;
+  margin-top: 70px;
+  color: #fff;
+  height: 86px;
+  margin-left:10rem;
+}
+
+.gra {
+  position: relative;
+  max-width: 596px;
+  height: 252px;
+  margin-left: 160px;
+   margin-top: -200px;
+  display: block;
+}
+
+.men {
+  position: relative;
+  width: 300px;
+  margin-top: -100px;
+  height: 320px;
+  border-radius: 20px;
+  display: block;
+  margin-left: 800px;
+}
+
+.mod-2{
+  height: 300px;
+  margin-left:155px;
+  width: 400px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.para-3{
+  margin-left: 36rem;
+  margin-top: -14rem;
+  height: 216px;
+  width: 596px;
+}
+.h6{
+  width: 1068px;
+  margin-top: 60px;
+  height: 48px;
+  margin-left:150px;
+  font-size:32px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+   margin-top: 100px;
+  max-width: 1000px;
+  margin-left: 100px;
+  padding: 0 20px;
+}
+
+.phase-1, .phase-2 {
+  border: 3px solid #D97575;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #251414 9.62%, #572222 48.08%, #1D0101 88.46%);
+  width: 416px;
+  min-height: 316px;
+  padding: 20px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.head-3{
+  color: #FFA1A1;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: -130px;
+}
+.head-4{
+   color: #FFA1A1;
+  font-size: 36px;
+  margin-left: 100px;
+}
+
+.p5 {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+
+.head-5{
+  width:1200px;
+  height: 72px;
+  font-size: 48px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 700px;
+  margin-left:200px;
+  margin-top: 100px;
+}
+.p6{
+  margin-left: 230px;
+  font-size: 24px;
+  width: 800px;
+  letter-spacing: 0%;
+}
+
+
+
+@media screen and (max-width:999px){
+  .heads{
+    position: relative;
+    margin-left: 20px;
+  }
+  .start{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 90px;
+  }
+  .gra{
+    position: relative;
+   margin-left: 90px;
+  }
+  .men{
+    position: relative;
+    margin-left: 43.4rem;
+  }
+  .mod-2{
+    position: relative;
+    margin-top:30px;
+    margin-left: 10px;
+  }
+  .para-3{
+    position:relative;
+    margin-left: 420px;
+    width:540px;
+  }
+  .h6{
+    position: relative;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heads {
+    margin-top: 20px;
+    margin-left: 0;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .start {
+    width: 90%;
+    font-size: 20px;
+    margin: 20px auto;
+    text-align: center;
+    height: auto;
+  }
+
+  .gra {
+  
+    position:relative;
+    margin-top:150px;
+    margin-left:30px;
+  }
+
+  .men {
+    width: 80%;
+    margin: 20px auto;
+    height: auto;
+    display: block;
+  }
+
+  .mod-2 {
+   position:relative;
+   width:80%;
+  left:40px;
+  }
+
+  .para-3 {
+   position:relative;
+   margin-top:140px;
+   margin-left:20px;
+  }
+
+  .h6 {
+    width: 90%;
+    margin: 30px auto;
+    font-size: 22px;
+    height: auto;
+    text-align: center;
+  }
+  .container{
+    position: relative;
+    margin-left:200px;
+  }
+   .head-3{
+    position: relative;
+    margin-left:-20px;
+   }
+   .p5{
+    position: relative;
+    margin-left: 10px;
+   }
+
+
+ 
+}
+@media (min-width: 1200px) {
+  .container {
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .container {
+    gap: 30px;
+  }
+  
+  .gra{
+    position:relative;
+    top:-130px;
+    left:-10px;
+    font-size:28px;
+    width:600px;
+  }
+  .men{
+    position:relative;
+    height: 432px;
+    
+  }
+  .mod-2{
+    position: relative;
+    height: 432px;
+    margin-left:30px;
+  }
+  .para-3{
+    position:relative;
+    font-size:25px;
+    height:232px;
+     top:-100px;
+     left:20px;
+     width:586px;
+  }
+  .head-5{
+    position:relative;
+    left:-300px;
+  }
+  .p6{
+    position:relative;
+    margin-left:100px;
+  }
+  .container{
+    position:relative;
+  left:-100px;
+  display:flex;
+ 
+  }
+  .head-3{
+    position:relative;
+    margin-left: 10px;
+  }
+  .head-4{
+    position:relative;
+    margin-left:10px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+  }
+  
+  .phase-1, .phase-2 {
+    width: 100%;
+    max-width: 500px;
+    margin-left: 0;
+  }
+  
+  .head-3, .head-4 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    margin: 30px auto;
+    gap: 20px;
+  }
+  
+  .phase-1, .phase-2 {
+    min-height: auto;
+    padding: 15px;
+  }
+  
+  .head-3, .head-4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .p5 {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 400px) {
+ .head-3{
+  font-size: 20px;
+  margin-left: 10px;
+ }
+  
+ .head-4{
+  position:relative;
+  margin-left: 3px;
+  font-size: 20px;
+ }
+ .head-5{
+  position: relative;
+  margin-left:460px;
+  font-size:30px;
+  width:300px;
+top:-20px;
+ }
+  .p5 {
+    font-size: 20px;
+  }
+  .container{
+    position: relative;
+     display:flex;
+  }
+  .rt{
+position: relative;
+left: 200px;
+  }
+  .gra{
+    position: relative;
+    margin-top:200px;
+    margin-left: 30px;
+  }
+  .men{
+    position:relative;
+    height: 440px;
+    width: 400px;
+    margin-left: 60px;
+  }
+  .mod-2{
+    position:relative;
+    height: 440px;
+    width: 400px;
+    
+  }
+  .p6{
+    position: relative;
+    margin-left:180px;
+    font-size: 24px;
+    width: 300px;
+  }
+  .h6{
+    position:relative;
+    left:100px;
+    font-size: 30px;
+    margin-top:-100px;
+  }
+  .container{
+    position:relative;
+  
+  }
+  .phase-1{
+    position:relative;
+    margin-left: 200px;
+    width: 400px;
+    height: 317px;
+  }
+  .phase-2{
+    position:relative;
+    margin-left: 200px;
+    height: 317px;
+    width: 400px;
+    margin-top:50px;
+  }
+  .head-3{
+    position:relative;
+    font-size: 36px;
+    margin-left:-50px;
+  }
+
+  .head-4{
+    position:relative;
+    font-size: 36px;
+    margin-left: -30px;
+  }
+}

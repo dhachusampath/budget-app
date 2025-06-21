@@ -1,0 +1,29 @@
+.list-content{
+ display:flex;
+ flex-direction: row;
+ width: 180px;
+}
+.description{
+ height: 30px;
+ width: 300px;
+
+}
+
+@media screen  and (max-width:400px){
+  .list-content{
+    position:relative;
+    display:flex;
+    width:200px;
+    flex-direction: column;
+    
+  }
+  
+}
+@media screen and (max-width:999px){
+  .list-content{
+    display:flex;
+    width:200px;
+    flex-direction:row;
+    padding-right:20px;
+  }
+}

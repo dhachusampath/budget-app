@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;700&display=swap');
+.sphere{
+ position: relative;
+ 
+}
+.spark{
+  height: 300px;
+  margin-top:230px;
+  margin-left: 200px;
+ background: #BE3333;
+ border-radius: 50%;
+ width: 422.6px;
+ height: 422.6px;
+}
+.spark .h20{
+ margin-left: 70px;
+ position: relative;
+ font-style: italic;
+ top: 150px;
+  width: 345px;
+  font-weight: 900;
+  font-size: 96px;
+  color:#FFA1A1
+
+}
+.h-6{
+  color: #fff;
+  width:117px;
+  height: 30px;
+  font-weight: 800;
+  font-family:'SF Pro Display';
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.p-21{
+  font-weight: 500;
+  font-size: 20px;
+  width: 359px;
+  margin-left: 2px;
+  font-family:"SF Pro Display";
+  line-height: 150%;
+  height: 60px;
+}
+
+.eclipse{
+  position: absolute;
+  margin-left:400px;
+  margin-top: -500px;
+}
+
+.way{
+  margin-left: 300px;
+  margin-top: 300px;
+}
+.graph{
+  position: relative;
+  margin-top: -220px;
+  margin-left: -40px;
+}
+.sparks{
+  position: absolute;
+  margin-top:-500px;
+  list-style: none;
+
+}
+.lu{
+  list-style: none;
+  display:flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left:600px;
+}
+.li{
+  width: 62px;
+  height: 62px;
+}
+.emo{
+  position: absolute;
+  margin-left:-150px;
+  margin-top:-30px;
+}
+.partner{
+  position: absolute;
+  margin-top:-50px;
+  margin-left:-10px;
+}
+.auth{
+  position:absolute;
+  margin-left:60px;
+  margin-top:14px;
+}
+
+.respect{
+  position: absolute;
+  margin-left: 20px;
+  margin-top:90px;
+}
+.kindness{
+  position: absolute;
+  margin-top:100px;
+  margin-left: -120px;
+}
+
+.define{
+  position: absolute;
+  margin-top:-560px;
+  margin-left: 600px;
+}
+.main{
+  display:flex;
+  flex-direction:column;
+  list-style: none;
+
+}
+.ctn-1{
+  height: 96px;
+  width: 352px;
+}
+.content-1{
+  position: absolute;
+  margin-left:-48px;
+  margin-top:-10px;
+}
+.content-2{
+  position: absolute;
+  margin-left: 80px;
+  margin-top:-20px;
+}
+.content-3{
+  position: absolute;
+  margin-left: 130px;
+  margin-top:50px;
+}
+.content-4{
+  position: absolute;
+  margin-left: 100px;
+  margin-top:150px;
+}
+.content-5{
+  position: absolute;
+  margin-top: 200px;
+  margin-left:-50px;
+}
+@media (max-width: 999px){
+.spark{
+  position: relative;
+  margin-left: 10px;
+}
+.sparks{
+  position: relative;
+  margin-left: 600px;
+}
+.eclipse{
+  position: relative;
+  margin-left: 200px;
+}
+.way{
+  position: relative;
+  margin-left:100px;
+}
+.lu{
+  position:relative;
+  margin-left:-90px;
+top:-120px;
+}
+.emo{
+  position:relative;
+  top:10px;
+  left:-60px;
+}
+.partner{
+  position:relative;
+  left:-100px;
+  top:30px;
+}
+.auth{
+  position:relative;
+  top:10px;
+  left:-110px;
+}
+.respect{
+  position:relative;
+  top:-20px;
+  left:-100px;
+}
+.kindness{
+  position:relative;
+  left:-90px;
+  top:4px;
+}
+.define{
+  position:relative;
+ margin-left:-170px;
+ top:-80px;
+}
+} 
+
+
+@media screen and (max-width: 400px) {
+.spark{
+  position:relative;
+  margin-left:-100px;
+  
+}
+.graph{
+  position:relative;
+  top:50px;
+}
+.eclipse{
+  position:relative;
+  margin-left:60px;
+}
+.lu{
+  position:relative;
+  left:-130px;
+}
+.define{
+  position:relative;
+  left:-120px;
+  margin-top:-570px;
+}
+}
+
