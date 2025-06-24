@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/budget-app/static/css/main.b55bfddc.css",
-    "main.js": "/budget-app/static/js/main.4432f0bf.js",
+    "main.css": "/budget-app/static/css/main.fcc7e0f6.css",
+    "main.js": "/budget-app/static/js/main.6bfdb772.js",
     "static/js/453.75b24e25.chunk.js": "/budget-app/static/js/453.75b24e25.chunk.js",
     "static/media/Men.jpg": "/budget-app/static/media/Men.62e6205ee9a4b9558c90.jpg",
     "static/media/certificate.png": "/budget-app/static/media/certificate.3c752bf836e24dce600c.png",
@@ -13,10 +13,10 @@
     "static/media/pre-1.png": "/budget-app/static/media/pre-1.197d30f5e7cf4e490698.png",
     "static/media/infinity.png": "/budget-app/static/media/infinity.857683bd3c2e0a495497.png",
     "static/media/pre-2.png": "/budget-app/static/media/pre-2.d1cde07051ff92b48d2e.png",
+    "static/media/exp.png": "/budget-app/static/media/exp.cd4ebaa1481a56c98f07.png",
     "static/media/mobile (2).png": "/budget-app/static/media/mobile (2).7739dffd48b8a8bf5e3c.png",
     "static/media/Dost1.png": "/budget-app/static/media/Dost1.2fc9c7cb6c36afc8d296.png",
     "static/media/image.jpg": "/budget-app/static/media/image.9d2177749c8899119f55.jpg",
-    "static/media/logoss.png": "/budget-app/static/media/logoss.a7c8ca28b4475c3b088b.png",
     "static/media/SPARK WAY.png": "/budget-app/static/media/SPARK WAY.a6fab394896d4e54c368.png",
     "static/media/Dost2.png": "/budget-app/static/media/Dost2.7b3da2eb915ca970cc8b.png",
     "static/media/Dost3.png": "/budget-app/static/media/Dost3.e06f3c81279071432463.png",
@@ -32,12 +32,12 @@
     "static/media/circle.png": "/budget-app/static/media/circle.55b6d1fbac89fcb0ba27.png",
     "static/media/d-3.png": "/budget-app/static/media/d-3.0b33159b79008ca6f7ea.png",
     "index.html": "/budget-app/index.html",
-    "main.b55bfddc.css.map": "/budget-app/static/css/main.b55bfddc.css.map",
-    "main.4432f0bf.js.map": "/budget-app/static/js/main.4432f0bf.js.map",
+    "main.fcc7e0f6.css.map": "/budget-app/static/css/main.fcc7e0f6.css.map",
+    "main.6bfdb772.js.map": "/budget-app/static/js/main.6bfdb772.js.map",
     "453.75b24e25.chunk.js.map": "/budget-app/static/js/453.75b24e25.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b55bfddc.css",
-    "static/js/main.4432f0bf.js"
+    "static/css/main.fcc7e0f6.css",
+    "static/js/main.6bfdb772.js"
   ]
 }
