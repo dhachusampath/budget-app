@@ -15,7 +15,7 @@ const WhyList = (props) => {
     <ul className='list-cont'>
       {props.items.map((list) => (
         <WhyItem
-          key={list.id} // ✅ Always add a key
+          key={list.id} 
           image={list.image}
           topic={list.topic}
           paragraph={list.paragraph}

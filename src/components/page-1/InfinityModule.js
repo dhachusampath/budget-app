@@ -17,6 +17,7 @@ const InfinityModule = () => {
   return (
     <div className="inf-1">
      <img src={infinity} className='inf' alt="inf"/>
+     <div className='sm'>
      <div className='rec'>
       <img src={col} className='col-1'/>
       <img src={col2} className='col-2'/>
@@ -35,6 +36,7 @@ const InfinityModule = () => {
         <img src={inf5} alt="Inf-5"/>
         <img src={inf6} alt="Inf-6"/>
       </div>
+  </div>
   </div>
   )
 };

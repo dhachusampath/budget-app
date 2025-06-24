@@ -18,6 +18,7 @@ const About =() =>{
      
       <h1 className='start'>We didn't start with a business plan.
       We started with a problem</h1>
+      <div className='ge'>
         <img src={Men} alt="Men" className='men'/>
       <p className='gra'>
       Online shopping was supposed to be easy. Fun. Personal. 
@@ -26,7 +27,7 @@ const About =() =>{
       You'd spend hours browsing the same products.
        Forget birthdays. Miss deals. Shop alone, second-guessing every decision — while 10 tabs stayed open and no one helped. Before the internet, shopping wasn’t like this.
       </p>
-         
+          </div>
      </div>
      <div>
      <img src={Img} alt="mod" className='mod-2'/>

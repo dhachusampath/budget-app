@@ -86,45 +86,59 @@
   }
 }
 
-/* 🔸 max-width: 768px (Tablets) */
+
 @media only screen and (max-width: 768px) {
   .details-list {
-    gap: 20px;
-    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;     
+    justify-content: center;  
+    gap: 24px;
+    overflow-x: auto;   
+    position:relative;
+    left:-150px;  
+         
   }
 
   .details-card {
-    max-width: 360px;
-    padding: 20px;
-    margin: 0 auto;
+    flex: 0 0 35%;            
+    max-width: 30%;
+    min-width: 200px;
+    height: 500px;
+    padding: 22px;
+  
   }
 
   .tag {
-    font-size: 24px;
-    margin-left: 10px;
+    font-size: 34px;
+    margin-left: 8px;
   }
 
   .hint {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   .full {
-    font-size: 15px;
+    font-size: 24px;
   }
 }
 
 
 @media only screen and (max-width: 576px) {
   .details-list {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    
+    display: flex;   
+    flex-wrap: nowrap; 
+    justify-content: center;
+    overflow-x: auto; 
+    gap: 20px;
+    left: -100px;
   }
 
   .details-card {
- 
-  
+    flex: 0 0 35%;
+    max-width: 30%;
+    min-width: 100px;
+    padding:20px;
+    height:430px;
   }
 
   .tag {
@@ -133,53 +147,67 @@
   }
 
   .hint {
-    font-size: 18px;
+    font-size: 30px;
   }
 
   .full {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
 
 
 @media only screen and (max-width: 480px) {
+ 
+  .details-list{
+    position:relative;
+    margin-left: 100px !important;
+  }
+ 
   .details-card {
   position: relative;
-  margin-left: 200px;
+  margin-left: 40px;
+  max-width: 600px;
   
   }
 
   .hint {
-    font-size: 17px;
+    font-size: 30px;
   }
 
   .full {
-    font-size: 13.5px;
+    font-size: 20px;
   }
 
   .tag {
-    font-size: 18px;
+    font-size: 28px;
   }
 }
 
 
 @media only screen and (max-width: 360px) {
+  body,html{
+   overflow-x: hidden;
+  }
+  .details-list{
+    position:relative;
+    margin-left: 100px !important;
+  }
   .details-card {
-    width: 100%;
+    width: 90%;
     padding: 14px;
-    margin-left:190px;
+    margin-left:20px;
   }
 
   .hint {
-    font-size: 16px;
+    font-size: 26px;
   }
 
   .full {
-    font-size: 13px;
+    font-size: 18px;
   }
 
   .tag {
-    font-size: 16px;
+    font-size: 20px;
     margin-left: 0;
     text-align: center;
   }

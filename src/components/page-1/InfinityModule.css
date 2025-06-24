@@ -54,12 +54,39 @@
 
 }
 @media screen and (max-width: 480px){
-  
+  .sm{
+    position:relative;
+    top:-100px;
+    left:-100px;
+    max-width:300px;
+    margin-left:40px;
+  }
+  .clms{
+    position:relative;
+      top:100px;
+      width: 360px;
+      left:-70px;
+      
+      
+  }
+  .clms-2{
+    position:absolute;
+   margin-top:-510px;
+   margin-left:820px;
+   width: 360px;
 
-   @media screen and (max-width:576px){
-    
-   }
-
+  }
+  .rec{
+    position:relative;
+    top:450px;
+    left:-100px;
+  }
+.inf{
+  position:relative;
+  top:-50px;
+  left:-150px;
+}
+}
    @media screen and(max-width:768px){
    .inf{
     position: absolute;
@@ -75,5 +102,7 @@
     position: absolute;
     
   }
+  .sm{
+    left:200px;
+  }
    }
-}

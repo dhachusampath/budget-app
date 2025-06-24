@@ -1,29 +1,109 @@
-.list-content{
- display:flex;
- flex-direction: row;
- width: 180px;
-}
-.description{
- height: 30px;
- width: 300px;
-
+.list-content {
+  display: flex;
+  flex-direction: row;
+  width: 180px;
 }
 
-@media screen  and (max-width:400px){
-  .list-content{
-    position:relative;
-    display:flex;
-    width:200px;
+.description {
+  height: 30px;
+  width: 300px;
+}
+.header{
+  position:relative;
+  left: 200px;
+}
+
+
+@media screen and (max-width: 400px) {
+  .list-content {
     flex-direction: column;
-    
+    width: 200px;
+    position: relative;
+    left: -100px !important;
+    padding-bottom: 40px;
+   
   }
-  
+  .header{
+    position:relative;
+    top:20px;
+    margin-left: -380px !important;
+  }
+  .description {
+    font-size: 20px !important;
+    position: relative;
+    left: 30px;
+    text-align: center;
+  }
 }
-@media screen and (max-width:999px){
-  .list-content{
-    display:flex;
-    width:200px;
-    flex-direction:row;
-    padding-right:20px;
+
+
+@media screen and (min-width: 401px) and (max-width: 576px) {
+  .list-content {
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+    margin-left: 400px !important;
+    margin-top:100px;
+  }
+
+  .description {
+    font-size: 40px !important;
+ height:120px !important;
+    width: 370px !important;
+    margin-left: -300px !important;
+   
+  }
+  .header{
+    position:relative;
+    font-size: 60px !important;
+    margin-left: -600px !important; 
+    color: #c7c7c7;
+
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .list-content {
+    flex-direction: row;
+    width: 240px;
+    padding-right: 20px;
+    margin-left: 100px;
+    margin-top:100px;
+  }
+
+  .description {
+    font-size: 30px !important;
+    text-align: left;
+    width: 300px !important;  
+  }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 999px) {
+  .list-content {
+    display: flex;
+    flex-direction: row;
+    width: 240px;
+    padding-right: 20px;
+    position: relative;
+    left: 40px !important;
+  }
+
+  .description {
+    font-size: 26px;
+  }
+}
+
+
+@media screen and (min-width: 1000px) {
+  .list-content {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+  }
+
+  .description {
+    font-size: 22px;
+    width: 300px;
   }
 }
